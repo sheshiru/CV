@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <script src="./script.js"></script>
+    <title>Curriculum Vitae Cecile Pham</title>
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <div class="row wrapper-fullsize">
+        <section
+          id="identity"
+          class=" col-xs-12 col-md-3 justify-content-center"
+        >
+          <div class="row">
+            <div
+              class="identity-content col-xs-12 col-xl-4 justify-content-center"
+            >
+              <div class="img-container rounded-circle">
+                <img
+                  src="./pics/cv-pic.png"
+                  alt="photo-profil"
+                  class="img-fuid"
+                />
+              </div>
+              <div class="nav-menu hidden" id="nav-menu">
+                <div id="list-example" class="list-group">
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#profil"
+                    >Profil</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#projects_section"
+                    >Projets</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#experiences"
+                    >Expériences</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#formations"
+                    >Formations</a
+                  >
+                  <a
+                    class="list-group-item list-group-item-action"
+                    href="#interests"
+                    >Centre d'intérêts</a
+                  >
+                </div>
+              </div>
+              <div class="nav-xs">
+                <h1 class="name">Cécile Pham</h1>
+                <h3 class="job-title">Développeuse web junior javascript</h3>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-circle"
+                  data-toggle="collapse"
+                  data-target="#about_me"
+                  aria-expanded="false"
+                  aria-controls="about_me"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+                <div class="collapse" id="about_me">
+                  <p class="about-text">
+                    Développeuse full stack junior, ancienne animatrice 3D, je
+                    recherche un poste qui me permettra de monter en compétence
+                    et de travailler dans un esprit d'équipe.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="page_wrapper"
+          class=" col-xs-12 col-md-9 justify-content-center"
+        >
+          <section id="contact">
+            <div class="main-contact hidden">
+              <div id="profil" class="main-contact-wrapper">
+                <h1 class="main-title">Cécile <span>Pham</span></h1>
+                <p class="about-me-text">
+                  Développeuse full stack junior, ancienne animatrice 3D, je
+                  recherche un poste qui me permettra de monter en compétence et
+                  de travailler dans un esprit d'équipe.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <h4 class="col-12 col-md-2 tel">
+                <div class="fa-container">
+                  <i class="fas fa-mobile-alt rounded-circle px-2 py-2"></i>
+                </div>
+              </h4>
+
+              <h4 class="col-xs-12 col-md-2 mail">
+                <div class="fa-container">
+                  <i class="far fa-envelope "></i>
+                </div>
+              </h4>
+
+              <h4 class="col-xs-12 col-md-2 city">
+                <div class="fa-container">
+                  <i class="fas fa-map-marker-alt rounded-circle px-2 py-2"></i>
+                </div>
+              </h4>
+              <h4 class="col-xs-12 col-md-2 linkedin">
+                <div class="fa-container">
+                  <i class="fab fa-linkedin-in rounded-circle px-2 py-2"></i>
+                </div>
+              </h4>
+              <h4 class="col-xs-12  col-md-2 github">
+                <div class="fa-container">
+                  <i class="fab fa-github rounded-circle px-2 py-2"></i>
+                </div>
+              </h4>
+            </div>
+          </section>
+          <hr />
+          <section id="projects_section">
+            <h2 class="projets-title">Projets développement web</h2>
+            <hr class="under-titles" />
+            <ul id="projects">
+              <li id="refill">
+                <a
+                  href="https://refill-project.herokuapp.com/home"
+                  target="_blank"
+                >
+                  <img src="./pics/refill.png" alt="refill" width="100%"
+                /></a>
+              </li>
+              <li id="midi">
+                <a href="https://midi-app.herokuapp.com/" target="_blank"
+                  ><img src="./pics/midi.png" alt="midi-app" width="100%"
+                /></a>
+              </li>
+              <li id="torii">
+                <a
+                  href="https://sheshiru.github.io/torii_treasure/"
+                  target="_blank"
+                >
+                  <img src="./pics/torii.png" alt="torii-game" width="100%"
+                /></a>
+              </li>
+            </ul>
+          </section>
+          <hr />
+
+          <section>
+            <div
+              data-spy="scroll"
+              data-target="#list-example"
+              data-offset="0"
+              class="scrollspy-example"
+            ></div>
+          </section>
+          <section id="experiences">
+            <h2>Expériences</h2>
+            <hr class="under-titles" />
+            <p>
+              2016 / 2018 - GERANTE VULPIN - Aix en Provence Création
+              d’entreprise, fabrique de bière artisanale locale et biologique.
+              Brassage, gestion administrative, graphisme, marketing,
+              relationnel, comptabilité 2013 / 2015 - SUPERVISEUSE BILINGUE
+              ANGLAIS CAPA - Aix en Provence 2009 / 2013 - ANIMATRICE 3D DURAN,
+              STUDIO100, ESCAPE, MUNDOCOM, AUTRECHOSE, CLAVIS FILMS, DIGITALINE,
+              MICROBE - Paris Demoreel [lien] La mécanique du coeur - Long
+              métrage réalisé par Mathias Malzieu, produit par Luc Besson Maya
+              l'abeille - Série TV Yop - Publicité AXA Banque - Publicis Groupe
+              Dépression et des potes - Long métrage réalisé par Arnaud Lemort,
+              produit par Dominique Farrugia UrbanComix - Série TV Mice (a Cat)
+              and Men - Moyen métrage produit par A droite de la Lune et Mac
+              Guff Fluxys - Film institutionnel
+            </p>
+          </section>
+          <hr />
+          <section id="formations">
+            <h2>Formations</h2>
+            <hr class="under-titles" />
+            <p>
+              2019 - IRONHACK - WEB DEV BOOTCAMP Formation intensive
+              développement web full stack - Diplôme RNCP Niveau 6 - Paris 2016
+              - PERMIS D'EXPLOITATION ET HYGIÈNE HACCP ARTEFAQS - Aix en
+              Provence 2006 / 2009 - ETUDES D'INFOGRAPHIE CINÉMA D'ANIMATION 3D
+              / EFFETS SPÉCIAUX Ecole ARTFX - Diplôme bac +5 - Montpellier 2006
+              - BACCALAURÉAT LITTÉRAIRE SPÉCIALITÉ ITALIEN - OPTION ART
+              PLASTIQUES Lycée Jean-Monnet - Montpellier
+            </p>
+          </section>
+          <hr />
+          <section id="interests">
+            <h2>Centre d'intérêts</h2>
+            <hr class="under-titles" />
+            <ul>
+              <li>Nouvelles technologies</li>
+              <li>Cinema</li>
+              <li>Sculpture</li>
+              <li>Photographie</li>
+              <li>Tennis - badminton</li>
+              <li>Randonnée</li>
+              <li>Cuisine</li>
+              <li>Voyages</li>
+            </ul>
+          </section>
+          <hr />
+
+          <section class="contact container-fluid padding-xlg padding-bottom-0">
+            <div class="container">
+              <div class="row">
+                <!--contact address-->
+                <div class="col-md-5">
+                  <h2 class="title-contact">Contact me</h2>
+                  <hr />
+                  <div class="contact-address">
+                    <p>6TER Chemin Brunet 13090 Aix en Pce</p>
+                    <p>06 27 50 59 66</p>
+                    <p>cecilepham@gmail.com</p>
+                  </div>
+                  <ul class="social-links social-border">
+                    <li class="google-plus">
+                      <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </li>
+                    <li class="facebook">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </li>
+                    <li class="dribbble">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                    <li class="behance">
+                      <i class="fa fa-behance" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+                </div>
+                <!--contact form-->
+                <div class="col-md-6 col-md-offset-1">
+                  <p class="form-heading">Drop me email</p>
+                  <div class="alert alert-success hidden" id="successMessage">
+                    <strong>Success!</strong> Your message has been sent to us.
+                  </div>
+                  <div class="alert alert-danger hidden" id="errorMessage">
+                    <strong>Error!</strong> There was an error sending your
+                    message.
+                  </div>
+                  <form
+                    action="post"
+                    method="POST"
+                    name="emailSubmission01"
+                    novalidate="novalidate"
+                  >
+                    <div class="row">
+                      <!-- <div class="col-md-12"> -->
+                      <div class="col-md-6 ">
+                        <input
+                          type="text"
+                          class="minimal"
+                          name="name"
+                          id="name"
+                          placeholder="Name"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          class="minimal"
+                          name="email"
+                          id="email"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <input
+                          type="text"
+                          class="minimal"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <textarea
+                          class="minimal"
+                          name="message"
+                          id="message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <div class="col-md-12">
+                        <button
+                          type="submit"
+                          name="submit"
+                          class="btn btn-md btn-primary"
+                          value="Submit"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                      <!-- </div> -->
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- <div class="row">
+        <section id="left" class="col-3"></section>
+        <section id="right" class="col-9"></section>
+      </div> -->
+
+        <!--responsive-->
+        <!-- <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-md-6 col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-md-6 col-lg-3"></div>
+        <div class="col-12 col-sm-8 col-md-6 col-lg-3"></div>
+      </div> -->
+
+        <!-- <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <div class="col-12"></div>
+      <div class="col-12"></div>
+    </div> -->
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
